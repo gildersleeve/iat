@@ -80,7 +80,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualt
 				{word: 'tempurature'},
 				{word: 'atmospheric pressure'},
 				{word: 'natural events'},
-				{word: 'ratiation'},
+				{word: 'radiation'},
 				{word: 'new environment'},
 
 			],
