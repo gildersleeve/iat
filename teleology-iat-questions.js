@@ -3,9 +3,9 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualt
 
 	return iatExtension({
 		category1 : {
-			name : 'Teleology',
+			name : 'Goal',
 			title : {
-				media : {word : 'Teleology words'},
+				media : {word : 'Goal words'},
 				css : {color:'#0000FF','font-size':'1.8em'},
 				height : 4 //Used to position the "Or" in the combined block.
 			},
@@ -16,7 +16,6 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualt
 				{word: 'planning'},
 				{word: 'plan'},
 				{word: 'destination'},
-				{word: 'goal'},
 				{word: 'finality'},
 				{word: 'purpose'}
 			],
@@ -32,7 +31,6 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualt
 			},
 			stimulusMedia : [ //Stimuli content as PIP's media objects
 				{word: 'luck'},
-				{word: 'chance'},
 				{word: 'lottery'},
 				{word: 'contingency'},
 				{word: 'wonderful'},
@@ -54,15 +52,15 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualt
 				height : 4 //Used to position the "Or" in the combined block.
 			},
 			stimulusMedia : [ //Stimuli content as PIP's media objects
-				{word: 'laughter'},
-				{word: 'happy'},
-				{word: 'glorious'},
-				{word: 'joy'},
-				{word: 'wonderful'},
-				{word: 'peace'},
-				{word: 'pleasure'},
-				{word: 'pleasure'},
-				{word: 'love'}
+				{word: 'genome'},
+				{word: 'genetics'},
+				{word: 'genetic heritage'},
+				{word: 'chromosome'},
+				{word: 'heredity'},
+				{word: 'genetic information'},
+				{word: 'genetic material'},
+				{word: 'DNA'},
+				{word: 'gene'}
 			],
 			//Stimulus css
 			stimulusCss : {color:'#0000FF','font-size':'2.3em'}
@@ -76,15 +74,15 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualt
 				height : 4 //Used to position the "Or" in the combined block.
 			},
 			stimulusMedia : [ //Stimuli content as PIP's media objects
-				{word: 'awful'},
-				{word: 'failure'},
-				{word: 'agony'},
-				{word: 'hurt'},
-				{word: 'horrible'},
-				{word: 'terrible'},
-				{word: 'nasty'},
-				{word: 'nasty'},
-				{word: 'evil'}
+				{word: 'luminosity'},
+				{word: 'climate'},
+				{word: 'humidity'},
+				{word: 'tempurature'},
+				{word: 'atmospheric pressure'},
+				{word: 'natural events'},
+				{word: 'ratiation'},
+				{word: 'new environment'},
+
 			],
 			//Stimulus css
 			stimulusCss : {color:'#0000FF','font-size':'2.3em'}
