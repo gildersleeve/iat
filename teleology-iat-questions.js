@@ -3,9 +3,9 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualt
 
 	return iatExtension({
 		category1 : {
-			name : 'Goal',
+			name : 'Goal Words',
 			title : {
-				media : {word : 'Goal words'},
+				media : {word : 'Goal'},
 				css : {color:'#0000FF','font-size':'1.8em'},
 				height : 4 //Used to position the "Or" in the combined block.
 			},
@@ -23,9 +23,9 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualt
 			stimulusCss : {color:'#0000FF','font-size':'2.3em'}
 		},	
 		category2 :	{
-			name : 'Chance',
+			name : 'Chance Words',
 			title : {
-				media : {word : 'Chance words'},
+				media : {word : 'Chance'},
 				css : {color:'#0000FF','font-size':'1.8em'},
 				height : 4 //Used to position the "Or" in the combined block.
 			},
@@ -33,11 +33,11 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualt
 				{word: 'luck'},
 				{word: 'lottery'},
 				{word: 'contingency'},
-				{word: 'wonderful'},
-				{word: 'peace'},
-				{word: 'pleasure'},
-				{word: 'pleasure'},
-				{word: 'love'}
+				{word: 'dice roll'},
+				{word: 'uncertainty'},
+				{word: 'raffle'},
+				{word: 'coincidence'},
+				{word: 'accident'}
 			],
 			//Stimulus css
 			stimulusCss : {color:'#0000FF','font-size':'2.3em'}
@@ -45,9 +45,9 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualt
 		
 		attribute2 :
 		{
-			name : 'Genetics',
+			name : 'Genetics Words',
 			title : {
-				media : {word : 'Genetics words'},
+				media : {word : 'Genetics'},
 				css : {color:'#0000FF','font-size':'1.8em'},
 				height : 4 //Used to position the "Or" in the combined block.
 			},
@@ -67,9 +67,9 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualt
 		},
 		attribute1 :
 		{
-			name : 'Environment',
+			name : 'Environment Words',
 			title : {
-				media : {word : 'Environment words'},
+				media : {word : 'Environment'},
 				css : {color:'#0000FF','font-size':'1.8em'},
 				height : 4 //Used to position the "Or" in the combined block.
 			},
