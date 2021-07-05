@@ -3,46 +3,53 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualt
 
 	return iatExtension({
 		category1 : {
-			name : 'Mutant', //Will appear in the data.
+			name : 'Teleology',
 			title : {
-				media : {word : 'Mutant'}, //Name of the category presented in the task.
-				css : {color:'#31940F','font-size':'2em'}, //Style of the category title.
+				media : {word : 'Teleology words'},
+				css : {color:'#0000FF','font-size':'1.8em'},
 				height : 4 //Used to position the "Or" in the combined block.
-			}, 
+			},
 			stimulusMedia : [ //Stimuli content as PIP's media objects
-    		    {image : 'black1.jpg'}, 
-    			{image : 'black2.jpg'}, 
-    			{image : 'black3.jpg'}, 
-    			{image : 'black4.jpg'}, 
-    			{image : 'black5.jpg'}, 
-    			{image : 'black6.jpg'}
-			], 
-			//Stimulus css (style)
-			stimulusCss : {color:'#31940F','font-size':'1.8em'}
+				{word: 'intention'},
+				{word: 'aim'},
+				{word: 'target'},
+				{word: 'planning'},
+				{word: 'plan'},
+				{word: 'destination'},
+				{word: 'goal'},
+				{word: 'finality'},
+				{word: 'purpose'}
+			],
+			//Stimulus css
+			stimulusCss : {color:'#0000FF','font-size':'2.3em'}
 		},	
 		category2 :	{
-			name : 'Typical', //Will appear in the data.
+			name : 'Chance',
 			title : {
-				media : {word : 'Typical'}, //Name of the category presented in the task.
-				css : {color:'#31940F','font-size':'2em'}, //Style of the category title.
+				media : {word : 'Chance words'},
+				css : {color:'#0000FF','font-size':'1.8em'},
 				height : 4 //Used to position the "Or" in the combined block.
-			}, 
+			},
 			stimulusMedia : [ //Stimuli content as PIP's media objects
-    		    {image : 'yf1.jpg'}, 
-    			{image : 'yf4.jpg'}, 
-    			{image : 'yf5.jpg'}, 
-    			{image : 'ym2.jpg'}, 
-    			{image : 'ym3.jpg'}, 
-    			{image : 'ym5.jpg'}			], 
+				{word: 'luck'},
+				{word: 'chance'},
+				{word: 'lottery'},
+				{word: 'contingency'},
+				{word: 'wonderful'},
+				{word: 'peace'},
+				{word: 'pleasure'},
+				{word: 'pleasure'},
+				{word: 'love'}
+			],
 			//Stimulus css
-			stimulusCss : {color:'#31940F','font-size':'1.8em'}
+			stimulusCss : {color:'#0000FF','font-size':'2.3em'}
 		},
 		
 		attribute2 :
 		{
-			name : 'Good words',
+			name : 'Genetics',
 			title : {
-				media : {word : 'Good words'},
+				media : {word : 'Genetics words'},
 				css : {color:'#0000FF','font-size':'1.8em'},
 				height : 4 //Used to position the "Or" in the combined block.
 			},
@@ -54,6 +61,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualt
 				{word: 'wonderful'},
 				{word: 'peace'},
 				{word: 'pleasure'},
+				{word: 'pleasure'},
 				{word: 'love'}
 			],
 			//Stimulus css
@@ -61,9 +69,9 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualt
 		},
 		attribute1 :
 		{
-			name : 'Bad words',
+			name : 'Environment',
 			title : {
-				media : {word : 'Bad words'},
+				media : {word : 'Environment words'},
 				css : {color:'#0000FF','font-size':'1.8em'},
 				height : 4 //Used to position the "Or" in the combined block.
 			},
@@ -74,6 +82,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualt
 				{word: 'hurt'},
 				{word: 'horrible'},
 				{word: 'terrible'},
+				{word: 'nasty'},
 				{word: 'nasty'},
 				{word: 'evil'}
 			],
