@@ -3,7 +3,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualt
 
 	return iatExtension({
 		category1 : {
-			name : 'Goal Words',
+			name : 'Goal',
 			title : {
 				media : {word : 'Goal'},
 				css : {color:'#0000FF','font-size':'1.8em'},
@@ -23,7 +23,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualt
 			stimulusCss : {color:'#0000FF','font-size':'2.3em'}
 		},	
 		category2 :	{
-			name : 'Chance Words',
+			name : 'Chance',
 			title : {
 				media : {word : 'Chance'},
 				css : {color:'#0000FF','font-size':'1.8em'},
