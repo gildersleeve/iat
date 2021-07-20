@@ -45,7 +45,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualt
 		
 		attribute2 :
 		{
-			name : 'Genetics Words',
+			name : 'Genetics',
 			title : {
 				media : {word : 'Genetics'},
 				css : {color:'#0000FF','font-size':'1.8em'},
@@ -67,7 +67,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualt
 		},
 		attribute1 :
 		{
-			name : 'Environment Words',
+			name : 'Environment',
 			title : {
 				media : {word : 'Environment'},
 				css : {color:'#0000FF','font-size':'1.8em'},
